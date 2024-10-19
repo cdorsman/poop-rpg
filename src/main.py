@@ -34,11 +34,6 @@ class BaseCharacter(ABC, abstractmethod):
     def heal(self, amount):
         ...
 
-
-class Hero(BaseCharacter):
-    def __init__(self, healt, speed, dexterity, 
-
-
 def main():
     ...
 
