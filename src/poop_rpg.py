@@ -4,7 +4,7 @@ from abc import ABC
 from random import choice
 from time import sleep
 
-class BaseCharacter(ABC, abstractmethod):
+class BaseCharacter(ABC):
     def __init__(self):
         self.health = 100
         self.speed = 0
@@ -34,9 +34,3 @@ class BaseCharacter(ABC, abstractmethod):
     def heal(self, amount):
         ...
 
-def main():
-    ...
-
-
-if __name__ == '__main__':
-    main()
